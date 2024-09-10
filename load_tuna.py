@@ -15,14 +15,14 @@ def download_tuna():
     with open("corpus.zip", "wb") as f:
         f.write(tuna.content)
     with zipfile.ZipFile("corpus.zip", "r") as zip_ref:
-        zip_ref.extractall("tuna")
+        zip_ref.extractall("tuna_original")
     os.remove("corpus.zip")
     print("TUNA corpus downloaded and unzipped.")
 
 
 if __name__ == "__main__":
     # Check if not already downloaded
-    if not os.path.exists("tuna"):
+    if not os.path.exists("tuna_original"):
         download_tuna()
     else:
         print("TUNA corpus already downloaded.")
