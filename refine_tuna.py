@@ -9,29 +9,30 @@
 # Parse all episodes in corpus folder und remove
 # those with +LOC condition
 
+
 import os
-import xml.etree.ElementTree as ET
+import json
 
 
-def rm_loc():
-    directory = "tuna/dist/corpus/singular/furniture"
-
+def rm_loc(directory):
     for filename in os.listdir(directory):
-        if filename.endswith(".xml"):  # Only process XML files, not .dtd
+        if filename.endswith(".json"):
             file_path = os.path.join(directory, filename)
-            try:
-                tree = ET.parse(file_path)
-                root = tree.getroot()
-                if root.attrib.get("CONDITION") == "+LOC":
-                    os.remove(file_path)
-                    print(f"Removed file: {filename}")
-                else:
-                    print(f"File {filename} does not match CONDITION='+LOC'.")
-            except ET.ParseError:
-                print(f"Failed to parse XML file: {filename}")
 
-    print("Finished removing files with +LOC condition.")
+            with open(file_path, 'r') as json_file:
+                try:
+                    data = json.load(json_file)
+
+                    if data["TRIAL"]["@CONDITION"] == "+LOC":
+                        os.remove(file_path)
+                        print(f"Removed file: {filename}")
+
+                except json.JSONDecodeError:
+
+                    print(f"Error reading {filename}, skipping file.")
+    print("All files with +LOC condition removed.")
 
 
 if __name__ == "__main__":
-    rm_loc()
+    directory = "/Users/eileen/B.Sc. Thesis/repos/mmref_utils/tuna"
+    rm_loc(directory)
