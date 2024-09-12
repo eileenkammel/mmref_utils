@@ -2,6 +2,7 @@ import xmltodict
 import json
 import os
 
+
 # Function to convert XML to JSON
 def xml_to_json(xml_string):
     # Parse XML to a Python dictionary
@@ -13,7 +14,8 @@ def xml_to_json(xml_string):
     return json_string
 
 
-# Conveert all episodes in the furniture category to JSON
+# Convert all episodes in the furniture category to JSON
+
 
 def convert_all_furniture(directory):
     path = "tuna/"
@@ -27,7 +29,7 @@ def convert_all_furniture(directory):
                 xml_data = xml_file.read()
 
             json_data = xml_to_json(xml_data)
-            output_name = filename[:-4]+(".json")
+            output_name = filename[:-4] + (".json")
             with open("tuna/" + output_name, "w") as json_file:
                 json_file.write(json_data)
 
