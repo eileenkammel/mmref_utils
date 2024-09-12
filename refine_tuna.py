@@ -37,5 +37,5 @@ def rm_loc(directory):
 
 
 if __name__ == "__main__":
-    directory = "/Users/eileen/B.Sc. Thesis/repos/mmref_utils/tuna"
+    directory = "tuna"
     rm_loc(directory)
