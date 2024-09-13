@@ -53,6 +53,15 @@ def extract_relevant_info(input_dir, output_name):
 
     return output_name
 
+# Sort the CSV file by the target image name
+
+
+def sort_csv(csv_path):
+    tuna_df = pd.read_csv(csv_path)
+    tuna_df.sort_values(by=["T"], inplace=True)
+    tuna_df.to_csv(csv_path, index=False)
+    print(f"CSV file sorted by target image name: {csv_path}")
+    return csv_path
 
 # Visualize the data in a HTML table, text only
 
@@ -98,5 +107,6 @@ if __name__ == "__main__":
     output_html_images = "tuna_images.html"
     tuna_images = "tuna_original/dist/images/furniture"
     tuna_csv = extract_relevant_info(directory, output_csv_name)
+    tuna_csv = sort_csv(tuna_csv)
     tuna_html = create_html(tuna_csv, output_html_name)
     create_html_images(tuna_html, tuna_images, output_html_images)
