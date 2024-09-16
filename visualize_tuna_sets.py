@@ -55,6 +55,7 @@ def extract_relevant_info(input_dir, output_name):
 
 
 # Make csv file from only the original 7 trials
+# json with 7 trials is handcrafted
 def extract_og_trials(input_file, output_file):
     csv_header = ["TRIAL_ID", "T", "D1", "D2", "D3", "D4", "D5", "D6"]
     csv_data = []
@@ -82,8 +83,8 @@ def extract_og_trials(input_file, output_file):
         writer.writerows(csv_data)
     return output_file
 
-# Sort the CSV file by the target image name
 
+# Sort the CSV file by the target image name
 
 def sort_csv(csv_path):
     tuna_df = pd.read_csv(csv_path)
@@ -92,8 +93,8 @@ def sort_csv(csv_path):
     print(f"CSV file sorted by target image name: {csv_path}")
     return csv_path
 
-# Visualize the data in a HTML table, text only
 
+# Visualize the data in a HTML table, text only
 
 def create_html(csv_path, output_name):
     tuna_df = pd.read_csv(csv_path)
