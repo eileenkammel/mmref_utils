@@ -7,7 +7,9 @@
 # purpose. Currently removes files from furniture folder in sg condition only.
 
 # Parse all episodes in corpus folder und remove
-# those with +LOC condition
+# those with +LOC condition and META-ATTRIBUTE in description.
+# (META-ATTRIBUTE contains the location if mentioned in the description
+# in the -LOC condition)
 
 
 import os
