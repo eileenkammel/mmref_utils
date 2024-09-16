@@ -22,6 +22,9 @@ tuna_original
 # Ignore all .csv files
 *.csv
 
+# Ignore all .json files
+*.json
+
 # Files that might appear in the root of a volume
 .DocumentRevisions-V100
 .fseventsd
