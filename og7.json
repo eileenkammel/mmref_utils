@@ -1,0 +1,1852 @@
+{
+    "TRIALS": [
+        {
+            "@ID": "1",
+            "ENTITIES": [
+                {
+                    "@ID": "23",
+                    "@IMAGE": "deskFrontGreyLarge.gif",
+                    "@TYPE": "target",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "grey"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "front"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "desk"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "large"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                },
+                {
+                    "@ID": "21",
+                    "@IMAGE": "deskFrontBlueLarge.gif",
+                    "@TYPE": "distractor",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "blue"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "front"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "desk"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "large"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                },
+                {
+                    "@ID": "20",
+                    "@IMAGE": "deskBackRedLarge.gif",
+                    "@TYPE": "distractor",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "red"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "back"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "desk"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "large"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                },
+                {
+                    "@ID": "90",
+                    "@IMAGE": "deskLeftGreenSmall.gif",
+                    "@TYPE": "distractor",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "green"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "left"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "desk"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "small"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                },
+                {
+                    "@ID": "53",
+                    "@IMAGE": "fanFrontBlueLarge.gif",
+                    "@TYPE": "distractor",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "blue"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "front"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "fan"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "large"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                },
+                {
+                    "@ID": "52",
+                    "@IMAGE": "fanBackRedLarge.gif",
+                    "@TYPE": "distractor",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "red"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "back"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "fan"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "large"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                },
+                {
+                    "@ID": "122",
+                    "@IMAGE": "fanLeftGreenSmall.gif",
+                    "@TYPE": "distractor",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "green"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "left"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "fan"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "small"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@ID": "2",
+            "ENTITIES": [
+                {
+                    "@ID": "80",
+                    "@IMAGE": "chairRightRedSmall.gif",
+                    "@TYPE": "target",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "red"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "right"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "chair"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "small"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                },
+                {
+                    "@ID": "76",
+                    "@IMAGE": "chairLeftRedSmall.gif",
+                    "@TYPE": "distractor",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "red"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "left"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "chair"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "small"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                },
+                {
+                    "@ID": "65",
+                    "@IMAGE": "chairBackBlueSmall.gif",
+                    "@TYPE": "distractor",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "blue"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "back"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "chair"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "small"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                },
+                {
+                    "@ID": "7",
+                    "@IMAGE": "chairFrontGreyLarge.gif",
+                    "@TYPE": "distractor",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "grey"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "front"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "chair"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "large"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                },
+                {
+                    "@ID": "108",
+                    "@IMAGE": "sofaLeftRedSmall.gif",
+                    "@TYPE": "distractor",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "red"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "left"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "sofa"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "small"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                },
+                {
+                    "@ID": "97",
+                    "@IMAGE": "sofaBackBlueSmall.gif",
+                    "@TYPE": "distractor",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "blue"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "back"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "sofa"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "small"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                },
+                {
+                    "@ID": "39",
+                    "@IMAGE": "sofaFrontGreyLarge.gif",
+                    "@TYPE": "distractor",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "grey"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "front"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "sofa"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "large"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@ID": "3",
+            "ENTITIES": [
+                {
+                    "@ID": "48",
+                    "@IMAGE": "sofaRightRedLarge.gif",
+                    "@TYPE": "target",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "red"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "right"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "sofa"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "large"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                },
+                {
+                    "@ID": "112",
+                    "@IMAGE": "sofaRightRedSmall.gif",
+                    "@TYPE": "distractor",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "red"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "right"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "sofa"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "small"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                },
+                {
+                    "@ID": "109",
+                    "@IMAGE": "sofaRightBlueSmall.gif",
+                    "@TYPE": "distractor",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "blue"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "right"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "sofa"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "small"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                },
+                {
+                    "@ID": "98",
+                    "@IMAGE": "sofaBackGreenSmall.gif",
+                    "@TYPE": "distractor",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "green"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "back"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "sofa"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "small"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                },
+                {
+                    "@ID": "96",
+                    "@IMAGE": "deskRightRedSmall.gif",
+                    "@TYPE": "distractor",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "red"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "right"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "desk"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "small"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                },
+                {
+                    "@ID": "93",
+                    "@IMAGE": "deskRightBlueSmall.gif",
+                    "@TYPE": "distractor",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "blue"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "right"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "desk"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "small"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                },
+                {
+                    "@ID": "82",
+                    "@IMAGE": "deskBackGreenSmall.gif",
+                    "@TYPE": "distractor",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "green"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "back"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "desk"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "small"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@ID": "4",
+            "ENTITIES": [
+                {
+                    "@ID": "121",
+                    "@IMAGE": "fanLeftBlueSmall.gif",
+                    "@TYPE": "target",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "blue"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "left"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "fan"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "small"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                },
+                {
+                    "@ID": "122",
+                    "@IMAGE": "fanLeftGreenSmall.gif",
+                    "@TYPE": "distractor",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "green"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "left"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "fan"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "small"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                },
+                {
+                    "@ID": "57",
+                    "@IMAGE": "fanLeftBlueLarge.gif",
+                    "@TYPE": "distractor",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "blue"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "left"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "fan"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "large"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                },
+                {
+                    "@ID": "52",
+                    "@IMAGE": "fanBackRedLarge.gif",
+                    "@TYPE": "distractor",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "red"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "back"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "fan"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "large"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                },
+                {
+                    "@ID": "106",
+                    "@IMAGE": "sofaLeftGreenSmall.gif",
+                    "@TYPE": "distractor",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "green"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "left"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "sofa"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "small"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                },
+                {
+                    "@ID": "41",
+                    "@IMAGE": "sofaLeftBlueLarge.gif",
+                    "@TYPE": "distractor",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "blue"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "left"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "sofa"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "large"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                },
+                {
+                    "@ID": "36",
+                    "@IMAGE": "sofaBackRedLarge.gif",
+                    "@TYPE": "distractor",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "red"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "back"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "sofa"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "large"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@ID": "5",
+            "ENTITIES": [
+                {
+                    "@ID": "9",
+                    "@IMAGE": "chairLeftBlueLarge.gif",
+                    "@TYPE": "target",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "blue"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "left"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "chair"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "large"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                },
+                {
+                    "@ID": "1",
+                    "@IMAGE": "chairBackBlueLarge.gif",
+                    "@TYPE": "distractor",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "blue"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "back"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "chair"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "large"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                },
+                {
+                    "@ID": "10",
+                    "@IMAGE": "chairLeftGreenLarge.gif",
+                    "@TYPE": "distractor",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "green"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "left"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "chair"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "large"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                },
+                {
+                    "@ID": "71",
+                    "@IMAGE": "chairFrontGreySmall.gif",
+                    "@TYPE": "distractor",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "grey"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "front"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "chair"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "small"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                },
+                {
+                    "@ID": "49",
+                    "@IMAGE": "fanBackBlueLarge.gif",
+                    "@TYPE": "distractor",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "blue"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "back"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "fan"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "large"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                },
+                {
+                    "@ID": "58",
+                    "@IMAGE": "fanLeftGreenLarge.gif",
+                    "@TYPE": "distractor",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "green"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "left"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "fan"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "large"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                },
+                {
+                    "@ID": "119",
+                    "@IMAGE": "fanFrontGreySmall.gif",
+                    "@TYPE": "distractor",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "grey"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "front"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "fan"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "small"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@ID": "6",
+            "ENTITIES": [
+                {
+                    "@ID": "86",
+                    "@IMAGE": "deskFrontGreenSmall.gif",
+                    "@TYPE": "target",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "green"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "front"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "desk"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "small"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                },
+                {
+                    "@ID": "94",
+                    "@IMAGE": "deskRightGreenSmall.gif",
+                    "@TYPE": "distractor",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "green"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "right"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "desk"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "small"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                },
+                {
+                    "@ID": "22",
+                    "@IMAGE": "deskFrontGreenLarge.gif",
+                    "@TYPE": "distractor",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "green"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "front"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "desk"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "large"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                },
+                {
+                    "@ID": "27",
+                    "@IMAGE": "deskLeftGreyLarge.gif",
+                    "@TYPE": "distractor",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "grey"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "left"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "desk"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "large"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                },
+                {
+                    "@ID": "78",
+                    "@IMAGE": "chairRightGreenSmall.gif",
+                    "@TYPE": "distractor",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "green"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "right"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "chair"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "small"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                },
+                {
+                    "@ID": "6",
+                    "@IMAGE": "chairFrontGreenLarge.gif",
+                    "@TYPE": "distractor",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "green"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "front"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "chair"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "large"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                },
+                {
+                    "@ID": "11",
+                    "@IMAGE": "chairLeftGreyLarge.gif",
+                    "@TYPE": "distractor",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "grey"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "left"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "chair"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "large"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@ID": "7",
+            "ENTITIES": [
+                {
+                    "@ID": "3",
+                    "@IMAGE": "chairBackGreyLarge.gif",
+                    "@TYPE": "target",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "grey"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "back"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "chair"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "large"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                },
+                {
+                    "@ID": "7",
+                    "@IMAGE": "chairFrontGreyLarge.gif",
+                    "@TYPE": "distractor",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "grey"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "front"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "chair"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "large"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                },
+                {
+                    "@ID": "4",
+                    "@IMAGE": "chairBackRedLarge.gif",
+                    "@TYPE": "distractor",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "red"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "back"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "chair"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "large"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                },
+                {
+                    "@ID": "67",
+                    "@IMAGE": "chairBackGreySmall.gif",
+                    "@TYPE": "distractor",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "grey"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "back"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "chair"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "small"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                },
+                {
+                    "@ID": "23",
+                    "@IMAGE": "deskFrontGreyLarge.gif",
+                    "@TYPE": "distractor",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "grey"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "front"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "desk"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "large"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                },
+                {
+                    "@ID": "20",
+                    "@IMAGE": "deskBackRedLarge.gif",
+                    "@TYPE": "distractor",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "red"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "back"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "desk"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "large"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                },
+                {
+                    "@ID": "83",
+                    "@IMAGE": "deskBackGreySmall.gif",
+                    "@TYPE": "distractor",
+                    "ATTRIBUTE": [
+                        {
+                            "@NAME": "colour",
+                            "@TYPE": "literal",
+                            "@VALUE": "grey"
+                        },
+                        {
+                            "@NAME": "orientation",
+                            "@TYPE": "literal",
+                            "@VALUE": "back"
+                        },
+                        {
+                            "@NAME": "type",
+                            "@TYPE": "literal",
+                            "@VALUE": "desk"
+                        },
+                        {
+                            "@NAME": "size",
+                            "@TYPE": "literal",
+                            "@VALUE": "small"
+                        },
+                        {
+                            "@NAME": "x-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        },
+                        {
+                            "@NAME": "y-dimension",
+                            "@TYPE": "gradable",
+                            "@VALUE": "unknown"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
