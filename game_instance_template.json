@@ -1,0 +1,20 @@
+{
+    "game_id":0.0,
+    "player_1_prompt_header":"",
+    "player_1_first_image":"",
+    "player_1_second_image":"",
+    "player_1_third_image":"",
+    "player_2_prompt_header":"",
+    "player_2_first_image":"",
+    "player_2_second_image":"",
+    "player_2_third_image":"",
+    "target_image_name":[
+       "first",
+       "1",
+       "1st"
+    ],
+    "player_1_response_pattern":"^expression:\\s(?P<content>.+)\n*(?P<remainder>.*)",
+    "player_2_response_pattern":"^answer:\\s(?P<content>first|second|third|1|2|3|1st|2nd|3rd)\n*(?P<remainder>.*)",
+    "player_1_response_tag":"expression:",
+    "player_2_response_tag":"answer:"
+}
