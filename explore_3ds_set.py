@@ -2,9 +2,8 @@
 # Author: Eileen Kammel, 811770
 # Date: 2024-09-23 11:34:39
 
-import numpy as np
+
 import h5py
-from PIL import Image
 
 dataset = h5py.File("3DS/3dshapes.h5", "r")
 
