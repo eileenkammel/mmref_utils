@@ -1,14 +1,14 @@
 import numpy as np
 import h5py
-from PIL import Image
 import time
+import pickle as pkl
 
 dataset = h5py.File("3DS/3dshapes.h5", "r")
 
-images1 = dataset["images"][:240000]  # array shape [240000,64,64,3], uint8 in range(256)
-labels1 = dataset["labels"][:240000]  # array shape [240000,6], float64
-images2 = dataset["images"][240000:]  # array shape [240000,64,64,3], uint8 in range(256)
-labels2 = dataset["labels"][240000:]  # array shape [240000,6], float64
+images1 = dataset["images"][:260000]  # array shape [240000,64,64,3], uint8 in range(256)
+labels1 = dataset["labels"][:260000]  # array shape [240000,6], float64
+images2 = dataset["images"][260000:]  # array shape [240000,64,64,3], uint8 in range(256)
+labels2 = dataset["labels"][260000:]  # array shape [240000,6], float64
 
 print(images1.shape)
 print(labels1.shape)
@@ -28,7 +28,7 @@ start = time.time()
 print("Start time batch 1:", start)
 
 # 1. Get rid of images where floor_hue, wall_hue, object_hue are the same
-# When not all values are the same, that means at leat two have to be different
+# When not all values are the same, that means at least two have to be different
 different_hue_mask1 = (
     (labels1[:, 0] != labels1[:, 1]) | (labels1[:, 1] != labels1[:, 2])
 )
@@ -113,3 +113,9 @@ images = np.concatenate((images1, images2), axis=0)
 labels = np.concatenate((labels1, labels2), axis=0)
 
 print(images.shape)
+print(labels.shape)
+
+# Save the subset by pickeling
+
+with open("3DS/3ds_subset.pkl", "wb") as f:
+    pkl.dump((images, labels), f)
