@@ -5,17 +5,21 @@ import pickle as pkl
 
 dataset = h5py.File("3DS/3dshapes.h5", "r")
 
-images1 = dataset["images"][:260000]  # array shape [240000,64,64,3], uint8 in range(256)
-labels1 = dataset["labels"][:260000]  # array shape [240000,6], float64
-images2 = dataset["images"][260000:]  # array shape [240000,64,64,3], uint8 in range(256)
-labels2 = dataset["labels"][260000:]  # array shape [240000,6], float64
+images1 = dataset["images"][
+    :260000
+]  # array shape [260000,64,64,3], uint8 in range(256)
+labels1 = dataset["labels"][:260000]  # array shape [260000,6], float64
+images2 = dataset["images"][
+    260000:
+]  # array shape [260000,64,64,3], uint8 in range(256)
+labels2 = dataset["labels"][260000:]  # array shape [260000,6], float64
 
 print(images1.shape)
 print(labels1.shape)
 print(images2.shape)
 print(labels2.shape)
 
-# Select subet of data with only the desired values
+# Select susbet of data with only the desired values
 # 1. Get rid of images where floor_hue, wall_hue, object_hue are the same
 # 2. Get rid of images that are not largest or smallest scale
 # 3. Get rid of images where the orientation is not left, right or frontal (-30, 0, 30)
@@ -29,8 +33,8 @@ print("Start time batch 1:", start)
 
 # 1. Get rid of images where floor_hue, wall_hue, object_hue are the same
 # When not all values are the same, that means at least two have to be different
-different_hue_mask1 = (
-    (labels1[:, 0] != labels1[:, 1]) | (labels1[:, 1] != labels1[:, 2])
+different_hue_mask1 = (labels1[:, 0] != labels1[:, 1]) | (
+    labels1[:, 1] != labels1[:, 2]
 )
 
 labels1 = labels1[different_hue_mask1]
@@ -71,8 +75,8 @@ print("Start time batch 2:", start)
 
 # 1. Get rid of images where floor_hue, wall_hue, object_hue are the same
 # When not all values are the same, that means at leat two have to be different
-different_hue_mask2 = (
-    (labels2[:, 0] != labels2[:, 1]) | (labels2[:, 1] != labels2[:, 2])
+different_hue_mask2 = (labels2[:, 0] != labels2[:, 1]) | (
+    labels2[:, 1] != labels2[:, 2]
 )
 
 labels2 = labels2[different_hue_mask2]
