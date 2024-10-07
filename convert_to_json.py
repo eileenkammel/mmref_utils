@@ -17,14 +17,25 @@ def xml_to_json(xml_string):
 # Convert all episodes in the furniture category to JSON
 
 
-def convert_all_furniture(directory):
+def convert_all_furniture(directory_sg, directory_pl):
     path = "tuna/"
     if not os.path.exists(path):
         os.makedirs(path)
 
-    for filename in os.listdir(directory):
+    for filename in os.listdir(directory_sg):
         if filename.endswith(".xml"):
-            file_path = os.path.join(directory, filename)
+            file_path = os.path.join(directory_sg, filename)
+            with open(file_path, "r") as xml_file:
+                xml_data = xml_file.read()
+
+            json_data = xml_to_json(xml_data)
+            output_name = filename[:-4] + (".json")
+            with open("tuna/" + output_name, "w") as json_file:
+                json_file.write(json_data)
+    # Plural episodes
+    for filename in os.listdir(directory_pl):
+        if filename.endswith(".xml"):
+            file_path = os.path.join(directory_pl, filename)
             with open(file_path, "r") as xml_file:
                 xml_data = xml_file.read()
 
@@ -37,5 +48,6 @@ def convert_all_furniture(directory):
 
 
 if __name__ == "__main__":
-    directory = "tuna_original/dist/corpus/singular/furniture"
-    convert_all_furniture(directory)
+    directory_sg = "tuna_original/dist/corpus/singular/furniture"
+    directory_pl = "tuna_original/dist/corpus/plural/furniture"
+    convert_all_furniture(directory_sg, directory_pl)
