@@ -134,7 +134,7 @@ def find_distractors(target_attributes, target_id):
         except ValueError:
             print("Not enough distractors found!")
             return None
-
+    # not possible with only 2 distractors
     # elif len(target_id) == 3:
     #     a1_idx = target_id[0]
     #     a2_idx = target_id[1]
