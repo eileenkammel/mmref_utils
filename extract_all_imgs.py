@@ -33,8 +33,9 @@ def extract_imgs():
                         img["IMAGES"].append(entity)
                         # copy image to new directory
                         if os.path.exists(img_path):
-                            shutil.copy(
-                                img_path, os.path.join(path, img_filename))
+                            shutil.copy(img_path, os.path.join(path, img_filename))
+            # delete file after reading
+            os.remove(file_path)
     all_imgs = os.path.join(path, "all_imgs.json")
     with open(all_imgs, "w") as json_file:
         json.dump(img, json_file, indent=4)
