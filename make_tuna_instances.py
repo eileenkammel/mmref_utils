@@ -144,7 +144,7 @@ def find_distractors(target_attributes, target_id):
 
 def make_stimuli_sets():
 
-    json_instances = {"INSTANCES": []}
+    json_instances = {"INSTANCES": {"one_attibute_id": [], "two_attibute_id": []}}
 
     episode_num = 0.0
 
@@ -168,14 +168,16 @@ def make_stimuli_sets():
                     distractor1 = distractors[0]
                     distractor2 = distractors[1]
                     episode = {
-                        "@EPISODE": episode_num,
-                        "TARGET": t_filename,
-                        "Distractor1": distractor1,
-                        "Distractor2": distractor2,
-                        "ID": determine_id_style(id),
+                        "stimuli_id": episode_num,
+                        "target": t_filename,
+                        "distractor1": distractor1,
+                        "distractor2": distractor2,
+                        "id_type": determine_id_style(id),
                     }
-
-                    json_instances["INSTANCES"].append(episode)
+                    if i == 1:
+                        json_instances["INSTANCES"]["one_attibute_id"].append(episode)
+                    elif i == 2:
+                        json_instances["INSTANCES"]["two_attibute_id"].append(episode)
 
                     episode_num += 1
 

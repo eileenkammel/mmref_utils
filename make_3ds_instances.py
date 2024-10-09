@@ -135,7 +135,7 @@ def find_distractors(target_attributes, target_id):
             possible_distractors = random.sample(possible_distractors, 2)
             return possible_distractors
         except ValueError:
-            #print("No distractors found.")
+            # print("No distractors found.")
             return None
     elif len(target_id) == 2:
         possible_distractors1 = []
@@ -190,13 +190,13 @@ def find_distractors(target_attributes, target_id):
             distractors = possible_distractors1 + possible_distractors2
             return distractors if len(distractors) == 2 else None
         except ValueError:
-            #print("Not enough distractors found.")
+            # print("Not enough distractors found.")
             return None
 
 
 def make_stimuli_sets():
 
-    json_instances = {"INSTANCES": []}
+    json_instances = {"INSTANCES": { "one_attibute_id": [], "two_attibute_id": []}}
 
     episode_num = 0.0
 
@@ -217,13 +217,17 @@ def make_stimuli_sets():
                 distractors = find_distractors(target_attributes, id)
                 if distractors is not None:
                     episode = {
-                        "@ID": episode_num,
-                        "@TARGET": target_filename,
-                        "ID_STYLE": determine_id_style(id),
-                        "Distractor1": distractors[0],
-                        "Distractor2": distractors[1],
+                        "stimuli_id": episode_num,
+                        "target": target_filename,
+                        "distractor1": distractors[0],
+                        "distractor2": distractors[1],
+                        "id_type": determine_id_style(id),
                     }
-                    json_instances["INSTANCES"].append(episode)
+
+                    if i == 1:
+                        json_instances["INSTANCES"]["one_attibute_id"].append(episode)
+                    elif i == 2:
+                        json_instances["INSTANCES"]["two_attibute_id"].append(episode)
 
                     episode_num += 1
         if episode_num % 10 == 0:
