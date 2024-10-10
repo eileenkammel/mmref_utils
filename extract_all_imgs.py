@@ -15,7 +15,7 @@ def extract_imgs():
     if not os.path.exists(path):
         os.makedirs(path)
     old_img_path = "tuna_original/dist/images/furniture"
-
+    img_counter = 0
     imgs_seen = set()
     img = {"IMAGES": []}
     # go through all episodes and write unique images in file
@@ -27,13 +27,18 @@ def extract_imgs():
                     img_id = entity["@ID"]
                     img_filename = entity["@IMAGE"]
                     img_path = os.path.join(old_img_path, img_filename)
+                    # change filename to mask content
+                    img_new_filename = f"{img_counter}.png"
                     # check if image is already seen
                     if img_id not in imgs_seen:
                         imgs_seen.add(img_id)
+                        img_counter += 1
+                        # replace filename
+                        entity["@IMAGE"] = img_new_filename
                         img["IMAGES"].append(entity)
                         # copy image to new directory
                         if os.path.exists(img_path):
-                            shutil.copy(img_path, os.path.join(path, img_filename))
+                            shutil.copy(img_path, os.path.join(path, img_new_filename))
             # delete file after reading
             os.remove(file_path)
     all_imgs = os.path.join(path, "all_imgs.json")
