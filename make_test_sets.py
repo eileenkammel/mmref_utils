@@ -5,6 +5,7 @@
 import os
 import json
 import shutil
+import random
 
 # Create a directory for the test sets
 path = "test_sets"
@@ -23,15 +24,17 @@ if not os.path.exists(tuna_path):
 # 3DS
 
 # read json file
-with open("3DS/3ds_instances.json", "r") as f:
+with open("3DS/3ds_3_distractor_instances.json", "r") as f:
     data = json.load(f)
 
-# pick 3 instances
-instances = data["INSTANCES"]["one_attibute_id"][:3]
+# pick 3 random instances
+
+instances = random.sample(data["INSTANCES"]["one_attibute_id"], 3)
+
 # make new insrtances json
 
 new_data = {"INSTANCES": {"one_attibute_id": instances}}
-new_data_path = os.path.join(three_ds_path, "3ds_instances.json")
+new_data_path = os.path.join(three_ds_path, "3ds_instances_3distractors.json")
 with open(new_data_path, "w") as f:
     json.dump(new_data, f, indent=4)
 
@@ -51,13 +54,13 @@ for stimuli in instances:
 # TUNA
 
 # read json file
-with open("tuna/instances.json", "r") as f:
+with open("tuna/tuna_3_distractor__instances.json", "r") as f:
     data = json.load(f)
 # pick 3 instances
-instances = data["INSTANCES"]["one_attibute_id"][:3]
+instances = random.sample(data["INSTANCES"]["one_attibute_id"], 3)
 # make new insrtances json
 new_data = {"INSTANCES": {"one_attibute_id": instances}}
-new_data_path = os.path.join(tuna_path, "instances.json")
+new_data_path = os.path.join(tuna_path, "tuna_instances_3distractors.json")
 with open(new_data_path, "w") as f:
     json.dump(new_data, f, indent=4)
 
